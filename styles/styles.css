@@ -26,14 +26,16 @@ section {
 }
 
 .cont {
-  max-width: 800px;
   margin: 0 auto;
   text-align: center;
+  background: #fff;
+  padding: 20px;
 }
 
 .hero-content {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 10px;
+  background: #fff;
 }
 
 .btn {
@@ -61,6 +63,11 @@ footer {
   color: #fff;
   padding: 20px;
   text-align: center;
+}
+
+.top-image {
+  border-radius: 50%;
+  padding: 15px;
 }
 
 * {
