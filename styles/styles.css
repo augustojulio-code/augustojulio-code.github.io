@@ -29,10 +29,11 @@ section {
   margin: 0 auto;
   align-content: center;
   text-align: center;
-  background: #fff;
+  background: #ffffff;
   padding: 20px;
   display: flex;
   justify-content: center;
+  box-shadow: 0 0 1em gold;
 }
 
 .cont-2 {
@@ -44,10 +45,14 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  box-shadow: 0 0 1em gold;
 }
 
 .cont-child {
   width: 50%;
+  text-align: justify;
+  border-radius: 10px;
+  padding: 10px;
 }
 
 .hero-content {
@@ -72,7 +77,15 @@ section {
 
 .contfooter {
   background-color: hsl(0, 0%, 100%);
-  color: #fff;
+  color: #000000;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 1em gold;
+}
+
+.contfooter2 {
+  background-color: hsl(0, 0%, 100%);
+  color: #000000;
   padding: 20px;
   text-align: center;
 }
