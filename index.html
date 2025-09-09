@@ -1,160 +1,78 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="pt-br">
 <head>
-  <title>Julio Augusto</title>
-  <link rel="stylesheet" href="styles/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Aniversário!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; 
+            margin: 0;
+            text-align: center;
+            padding: 20px; 
+            box-sizing: border-box;
+        }
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 30px; 
+            width: 100%; 
+            max-width: 500px; 
+            animation: fadeIn 2s;
+            display: flex;
+            flex-direction: column; 
+            justify-content: center;
+            align-items: center;
+        }
+        h1 {
+            color: #ff6347;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            word-break: break-word; 
+        }
+        p {
+            color: #333;
+            font-size: 1em; 
+            line-height: 1.5;
+        }
+
+        
+        @media (min-width: 768px) {
+            .card {
+                padding: 40px; 
+            }
+            h1 {
+                font-size: 3em; 
+            }
+            p {
+                font-size: 1.2em; */
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: scale(0.9);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+    </style>
 </head>
-
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <div class="master-div">
-    <section id="hero">
-      <div class="hero-content">
-        <img class="top-image"
-          src="https://img.uxwing.com/wp-content/themes/uxwing/download/computers-mobile-hardware/computer-user-icon.svg"
-          width="200px" height="200px">
-        <h1>Hello there, i'm Julio</h1>
-        <p>Java back-end developer</p>
-      </div>
-    </section>
-
-
-
-    <section id="about">
-      <div class="cont">
-        <div class="cont-child">
-          <h2>About me</h2>
-          <br>
-          <p>A Java and Android developer, with a lot of experience in object-oriented programming, SQL
-            database and experience with NoSQL databases, requirements gathering and analysis, UML, POCs and adherence
-            testing.
-            <br>
-            <br>
-            My main goal is to be able to solve increasingly complex problems through the development of technology
-            solutions.
-            <br>
-            <br>
-            I am currently a Java back-end developer, working on REST API development with spring framework, SQL
-            database modeling and software engineering.
-            <br>
-            <br>
-            I already worked in a test team at Bradesco bank, where I worked with requirements gathering and analysis
-            and specification of IT projects, process mapping, technical elaboration of software requirements and proof
-            of concept of IT solutions.
-          </p>
-        </div>
-      </div>
-      <div class="timeline">
-
-        <div class="container left-container">
-          <img src="images/java.png" />
-          <div class="text-box">
-            <h2>Freelance Java developer</h2>
-            <small>2023 - Atual</small>
-            <p>JAVA spring framework development, Api rest, SQL and NoSQL database, unit tests, survey
-              and requirements analysis, AWS services and Software engineering.</p>
-            <span class="left-container-arrow"></span>
-          </div>
-        </div>
-        <div class="container right-container">
-          <img src="images/bradescoLogo.png" />
-          <div class="text-box">
-            <h2>IT Infrastructure Intern (Tests)</h2>
-            <small>2021 - 2022</small>
-            <p>Conduct survey and analysis of requirements and specification of IT projects, developing solutions
-              for processes, mapping, preparing technical documentation for specification of POCs software requirements
-              and
-              software approval.</p>
-            <span class="right-container-arrow"></span>
-          </div>
-        </div>
-
-        <div class="container left-container">
-          <img src="images/androidlogo.jpg" />
-          <div class="text-box">
-            <h2>Freelance Java Android developer</h2>
-            <small>2018 - 2021</small>
-            <p>Native Java development for Android, unit testing and UML modeling and SQL and NoSQL database.</p>
-            <span class="left-container-arrow"></span>
-          </div>
-        </div>
-
-        <div class="container right-container">
-          <img src="images/engrenagemlogo.png" />
-          <div class="text-box">
-            <h2>non-tech career</h2>
-            <small>2012-2016</small>
-            <p>PCP production planning and control and quality management</p>
-            <span class="right-container-arrow"></span>
-          </div>
-        </div>
-      </div>
-
-    </section>
-
-    <section id="projects">
-      <div class="cont-2">
-        <h1>Projects</h1>
-        <br>
-        <br>
-        <h3>E-libras</h3>
-        <br>
-        <p>Completion of course work on systems analysis and development, the application is a Libras e-learning, based
-          on native java for android and firebase for data persistence.</p>
-        <br>
-        <h3>Project stack</h3>
-        <br>
-        <div class="contfooter-2">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Android_Studio_Icon_%282014-2019%29.svg"
-            width="60px" height="60px" />
-          <img src="images/androidlogo.jpg" width="60px" height="60px">
-          <img src="images/java.png" width="60px" height="60px">
-          <img src="https://cdn-icons-png.flaticon.com/512/5105/5105250.png" width="60px" height="60px">
-          <img src="https://cdn4.iconfinder.com/data/icons/google-i-o-2016/512/google_firebase-2-512.png" width="60px"
-            height="60px">
-          <img src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png" width="60px"
-            height="60px">
-        </div>
-        <br>
-        <div class="contfooter-2">
-          <img src="images/libras1.png" height="434px" width="242">
-          <img src="images/libras2.png" height="434px" width="242">
-          <img src="images/libras3.png" height="434px" width="242">
-        </div>
-        <br>
-
-      </div>
-    </section>
-
-    <section id="contact">
-      <div class="contfooter">
-        <h3>You can find me here!</h3>
-        <br>
-        <a href="https://www.linkedin.com/in/julio-augusto-a99308119/"><img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/800px-LinkedIn_icon_circle.svg.png"
-            width="30px" height="30px" /></a>
-        <a href="mailto: julio.mech@hotmail.com"><img
-            src="https://w7.pngwing.com/pngs/4/365/png-transparent-computer-icons-email-email-miscellaneous-trademark-logo.png"
-            width="30px" height="30px"></a>
-        <a href="https://github.com/augustojulio-code"><img
-            src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png" width="30px"
-            height="30px"></a>
-      </div>
-    </section>
-  </div>
-  <footer>
-    <p>&copy; 2023 Julio Augusto</p>
-  </footer>
-
+    <div class="card">
+        <h1>Ajude meu Amigo!</h1>
+        <p>
+            Desejando feliz aniversario, palavras bonitas, mais palavras bonitas!
+        </p>
+    </div>
 </body>
-
 </html>
